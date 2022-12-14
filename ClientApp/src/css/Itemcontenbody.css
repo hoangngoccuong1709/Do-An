@@ -1,0 +1,32 @@
+article {
+    border-radius: 5px;
+    padding: 2em 1em 1em 1em;
+    margin-top: 2rem;
+    background-color: #fff;
+    margin-right: 220px;
+overflow: hidden;
+}
+article h3{
+    font-size: 3rem;
+   font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+   margin: 0;
+}
+.tacgia{
+    font-size: 3rem;
+    font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+}
+.conten{
+    font-size: 2rem;
+    padding-bottom: 1em;
+}
+.title{
+    font-size: 2rem;
+    border-top: 1px solid gray;
+    padding-top: 1em;
+}
+.conten-container{
+    display: flex;
+    background-color: #fff;
+    margin-top: 3em;
+    align-items: center;
+}

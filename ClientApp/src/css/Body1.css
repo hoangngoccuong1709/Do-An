@@ -1,0 +1,36 @@
+.body1{
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-gap: 2rem 2rem ;
+    grid-template-columns: auto auto auto auto auto ;
+}
+.body1-item{
+    border: 1px solid #93B874;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.body1-item .img_item{
+    height: 200px;
+    width: 200px;
+}
+.body1-item:hover h4,.body1-item:hover h3{
+    color: rgb(25, 113, 227);
+}
+.title{
+    color: #475347;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem 0;
+    font-weight: bold;
+    font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+}
+.descrep{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #475347;
+    font-weight: 400;
+    margin: 1rem 0;
+    font-size: 1.3rem;
+}

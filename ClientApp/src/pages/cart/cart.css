@@ -1,0 +1,142 @@
+th {
+  padding: 3rem;
+  font-size: 3rem;
+}
+td {
+  font-size: 3rem;
+}
+.col-md-8 order-md-1 {
+  margin-top: 5rem;
+}
+.row {
+  padding: 2rem;
+}
+input {
+  width: 60%;
+  padding: 1rem;
+  font-size: 2rem;
+}
+label {
+  font-size: 16px;
+}
+span {
+  font-size: 16px;
+}
+h6 {
+  font-size: 16px;
+}
+.atice {
+  height: 100%;
+}
+strong {
+  font-size: 16px;
+}
+h4 {
+  font-size: 16px;
+}
+/* css phần nhập thôgn tin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.cart_box img {
+  width: 50px;
+  height: 50px;
+}
+.cart_img {
+  display: flex;
+  width: 400px;
+}
+.ant-btn-default{
+  background-color:  none;
+  padding: 0;
+}
+.cart_img p {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.cart_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 5px;
+}
+
+.cart_box div:nth-child(2) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.cart_box div:nth-child(3) button {
+  padding: 5px 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  /* color: white; */
+  /* background-color: skyblue; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* .cart_box div:nth-child(3) button:hover {
+  background-color: darkseagreen;
+} */
+.cart_box div:nth-child(3) span {
+  /* background-color: lightgreen; */
+  padding: 5px 10px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.total {
+  margin-left: 600px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.total span:nth-child(1) {
+  font-size: 28px;
+  color: #303233;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.total span:nth-child(2) {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+}
+.my-0 {
+  padding: 0rem 1rem;
+}
+.justify-content-between span {
+  padding: 1rem;
+}
+.mb-3 {
+  padding: 1rem;
+}
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+/* btn  checkout */
+.ant-btn-default {
+  font-size: 1.6rem;
+  background-color: burlywood;
+  /* padding: 1rem; */
+}

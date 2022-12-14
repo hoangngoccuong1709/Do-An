@@ -1,0 +1,147 @@
+/* atrice */
+.div{
+/* background-color: #e9ecef; */
+}
+.article {
+    padding-left: 50px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding-top:2rem;
+    background-color: #e6f7ff;
+    margin-right: 50px;
+    margin-left: 50px;
+overflow: hidden;
+}
+ .article h3{
+    font-size: 3rem;
+   font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+   margin: 0;
+}
+.tacgia{
+    font-size: 3rem;
+    font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+}
+.conten{
+    font-size: 2rem;
+    padding-bottom: 1em;
+}
+.title{
+    font-size: 2rem;
+    border-top: 1px solid gray;
+    padding-top: 1em;
+}
+.conten-container{
+    display: flex;
+    background-color: #fff;
+    margin-top: 3em;
+    align-items: center;
+}
+/* atice */
+.w3l-teams-15{
+    padding-left: 50px;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding-top:2rem;
+    background-color: #e9ecef;
+    margin-right: 50px;
+    margin-left: 50px;
+overflow: hidden;
+}
+.w3l-teams-15 .team-single-main {
+    background: var(--back-color);
+}
+.w3l-teams-15 .team-single-main {
+    padding: 70px 0px;
+}
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.container-post {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+}
+.column1 image-back col-lg-6 .header11{
+    /* align-self: center; */
+position: relative;
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+}
+
+/* .w3l-teams-15  {
+ 
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+} */
+.column{
+    /* flex: 0 0 auto;
+    width: 50%; */
+    /* padding-right: 20px;
+    padding-left: 20px; */
+
+}
+
+
+/* .row {
+    padding-right: 4rem;
+    padding-left: 4rem;
+} */
+
+/* hotsreach */
+.title-post{
+    margin-left: 6rem;
+    margin-top: 2rem;
+    color: #93B874;
+}
+.hotsearch{
+    display: grid;
+    grid-template-columns: auto  auto  auto  auto ;
+    margin-right: 2rem;
+}
+.user-grid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+/* nav {
+    top: 0;
+    float: right;
+    border-left: 1px solid gray;
+    max-width: 160px;
+    margin: 0;
+    
+    margin-top: 2rem;
+    } */
+
+/* .ul-nav li{
+    list-style: none;
+}
+.conten-nav {
+    font-size: 25px;
+    font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+    margin: 0;
+    padding-top: 2rem;
+    color: black;
+}
+.ul-nav  li {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.ul-nav ul{
+    padding-left: 0;
+}
+.ul-nav button{
+    text-align: start;
+    padding: 0.5em;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #93B874;
+    border-radius: 5px;
+    width: 10em;
+} */

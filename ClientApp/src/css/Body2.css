@@ -1,0 +1,46 @@
+.body2{
+    background-color: #E6EEE0;
+    margin-top: 2rem;
+    flex-flow: row wrap;
+    padding-bottom: 1px;
+    padding-bottom: 2rem;
+}
+.info-title{
+    font-size: 3rem;
+    margin-top: 2rem;
+    color: rgb(56, 67, 56);
+}
+.info{
+    flex: 1 0 ;
+    display: block;
+}
+.info-descrep{
+    font-size: 1.9rem;
+}
+
+#readmore{
+    padding: 5px 15px;
+    background-color: #93B874;
+    border-radius: 20px;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+#readmore:hover{
+    background-color: #475347;
+    transition: 1s;
+}
+.infor{
+    margin-left: 5rem;
+}
+.infor h3{
+    font-size: 3rem;
+    color: #384338;
+}
+.infor p{
+    font-size: 1.9rem;
+}
+.infor>i{
+    font-size: 2rem;
+    color: #384338;
+}

@@ -1,0 +1,56 @@
+.conten-container-2 {
+    display: flex;
+    border-radius: 5px;
+    margin-top: 3rem;
+    background-color: #fff;
+    margin-right: 200px;
+    overflow: hidden;
+    height: auto;
+    align-items: center;
+}
+.conten-container-2 img{
+ width: 300px;
+ height: 250px;
+}
+.conten-container-2 h3{
+    font-size: 3rem;
+   font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+   margin: 0;
+}
+
+.thongtin-list{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.luotxem{
+    align-items: center;
+    font-size: 1.5rem;
+    display: flex;
+}
+.nguoiviet{
+    margin-left: 2rem;
+    align-items: center;
+    font-size: 1.5rem;
+    display: flex;
+}
+.thoigian{
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    display: flex;
+}
+.title-container-2{
+    margin:  0 ;
+    font-size: 3rem;
+    border-bottom: 1px solid gray;
+}
+.conten-list{
+    padding: 0 1rem;
+} 
+.conten-p{
+    margin: 0;
+    margin-left: 0.5rem;
+} 
+a{    text-decoration: none;
+    color: #333;}

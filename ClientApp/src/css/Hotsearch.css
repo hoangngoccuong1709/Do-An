@@ -1,0 +1,46 @@
+.hotsearch{
+    display: grid;
+    grid-template-columns: auto  auto  auto  auto ;
+    margin-right: 2rem;
+}
+.user-grid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+nav {
+    top: 0;
+    float: right;
+    border-left: 1px solid gray;
+    max-width: 160px;
+    margin: 0;
+    
+    margin-top: 2rem;
+    }
+
+.ul-nav li{
+    list-style: none;
+}
+.conten-nav {
+    font-size: 25px;
+    font-family: "Helvetica","Nimbus Sans L","Arial","Liberation Sans",sans-serif;
+    margin: 0;
+    padding-top: 2rem;
+    /* padding-bottom: 1em; */
+    color: black;
+}
+.ul-nav  li {
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.ul-nav ul{
+    padding-left: 0;
+}
+.ul-nav button{
+    text-align: start;
+    padding: 0.5em;
+    background-color: #fff;
+    border-style: solid;
+    border-color: #93B874;
+    border-radius: 5px;
+    width: 10em;
+}

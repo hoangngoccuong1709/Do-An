@@ -1,0 +1,52 @@
+
+.banner{
+    flex-flow: row wrap;
+    background-color: #E6EEE0;
+    align-items: unset;
+}
+.banner__item{
+    flex: 1 0;
+    display: block;
+}
+.banner__item>h3{
+    font-size: 4rem;
+    color: #475347;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 5rem 0;
+    text-align: left;
+}
+.banner__item>h4{
+    font-size: 2rem;
+    color: #475347;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+.banner__item{
+    max-width: 80%;
+}
+.input{
+    position: relative;
+}
+.input>input{
+    width: 80%;
+    height: 5rem;
+    font-size: 2rem;
+    border: 2px solid #93B874;
+    border-radius: 5px;
+    outline: none;
+    padding: 0 5rem 0rem 1rem;
+}
+.input>i{
+    font-size: 3.4rem;
+    position: absolute;
+    right: 6rem;
+    top: 1rem;
+    color: #475347;
+}
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button {
+    border: none;
+    background: white;
+    color: black;
+    
+}

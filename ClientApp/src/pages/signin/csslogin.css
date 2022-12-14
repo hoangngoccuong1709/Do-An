@@ -1,0 +1,32 @@
+
+.login h2{
+    text-align: center;
+    padding: 3rem;
+    /* text-align: center; */
+}
+.login{
+    padding-bottom: 10rem;
+    background-image: linear-gradient(-225deg, #e3fdf5 0%, #fff 100%);
+    background-image: linear-gradient(to top, #a8edea 0%, #fff 100%);
+}
+.input-form{
+    text-align: center;
+}
+.login-form{
+    background-image: linear-gradient(-225deg, #e3fdf5 50%, #fff 50%);
+    padding: 5rem;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #f0f0f0;
+}
+.login-form img{
+    /* flex: 1; */
+}
+#footer{
+    margin-top: 0;
+}
+::placeholder{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}

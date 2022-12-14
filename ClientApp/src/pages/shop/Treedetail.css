@@ -1,0 +1,114 @@
+@import url("//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+.cot {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  margin-left: 54px;
+  margin-right: 54px;
+  grid-gap: 50px;
+}
+.active img{
+  height: 30rem;
+  width: 30rem;
+}
+.cot img {
+  width: 100%;
+  height: 292px;
+}
+.griditem {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: auto;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+a.icon img {
+  width: 19px;
+  height: 17px;
+  image-rendering: pixelated;
+  position: relative;
+  float: right;
+  right: 14px;
+  top: 14px;
+}
+.text {
+  margin-left: 42px;
+  margin-right: 42px;
+  margin-top: 31px;
+  margin-bottom: 2rem;
+}
+.text h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 29px;
+  color: #484a4b;
+  margin: 0 0;
+}
+.text p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 13px;
+  color: #765a33;
+  margin: 0 0;
+  margin-bottom: 1rem;
+}
+.text button {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 10px;
+  background: #454545;
+  border: 2px solid #454545;
+  color: white;
+  border-radius: 50px;
+  width: 102px;
+  height: 25px;
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+.text::after {
+  color: #000;
+  clear: both;
+  display: table;
+}
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+.griditem:hover {
+  /* transform: scale(1.2); */
+}
+.chuyentrang {
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-around;
+}
+.imgtd2-1 {
+  margin-top: 38px;
+  position: absolute;
+  left: 0;
+}
+article {
+  margin: 5rem;
+}
+article h3 {
+  font-size: 3rem;
+}
+.tacgia {
+  font-size: 2rem;
+}
+.btn-them {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: #765a33;
+}
+.link {
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #454545;
+  color: #ccc;
+  border-radius: 3px;
+}
+.action {
+  padding-top: 2rem;
+}
+.action button{
+  font-size: 2rem;
+}
+.card{padding: 2rem;}
