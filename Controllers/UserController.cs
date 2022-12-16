@@ -213,6 +213,22 @@ namespace Do_An.Controllers
             });
         }
     }
+
+    // [HttpPost]
+    // [ValidateAntiForgeryToken]
+    // public async Task<IActionResult> ForgotPassword(ForgotPasswordModel forgotPasswordModel)
+    // {
+    //     if (!ModelState.IsValid)
+    //         return View(forgotPasswordModel);
+    //     var user = await _userManager.FindByEmailAsync(forgotPasswordModel.Email);
+    //     if (user == null)
+    //         return RedirectToAction(nameof(ForgotPasswordConfirmation));
+    //     var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+    //     var callback = Url.Action(nameof(ResetPassword), "Account", new { token, email = user.Email }, Request.Scheme);
+    //     var message = new Message(new string[] { user.Email }, "Reset password token", callback, null);
+    //     await _emailSender.SendEmailAsync(message);
+    //     return RedirectToAction(nameof(ForgotPasswordConfirmation));
+    // }
     public class LoginModel
     {
         public string UserName { get; set; }

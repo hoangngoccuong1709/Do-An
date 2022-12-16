@@ -20,6 +20,15 @@ namespace Do_An
 
         public DateTime CreatedDate { get; set; }
         public virtual ICollection<Order> Order { get; set; }
+        [Required]
+        [Display(Name = "DisplayName:NewPassword")]
+        [DataType(DataType.Password)]
+        public string NewPassword { get; set; }
+
+        [Required]
+        [Display(Name = "DisplayName:NewPasswordConfirm")]
+        [DataType(DataType.Password)]
+        public string NewPasswordConfirm { get; set; }
 
     }
 

@@ -11,6 +11,7 @@ import { useEffect } from "react";
 import Sidebar from "../components/sidebar/Sidebar";
 import Navbar from "../components/navbar/Navbar";
 import "../components/datatable/datatable.scss";
+//import MdEditor from "react-markdown-editor-lite";
 import { CKEditor } from "@ckeditor/ckeditor5-react";
 import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 
@@ -323,12 +324,12 @@ const Post = () => {
 
                             console.log({ event, editor, ckeditor });
                           }}
-                          onBlur={(event, editor) => {
-                            console.log("Blur.", editor);
-                          }}
-                          onFocus={(event, editor) => {
-                            console.log("Focus.", editor);
-                          }}
+                          // onBlur={(event, editor) => {
+                          //   console.log("Blur.", editor);
+                          // }}
+                          // onFocus={(event, editor) => {
+                          //   console.log("Focus.", editor);
+                          // }}
                         ></CKEditor>
                       </div>
 

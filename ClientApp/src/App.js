@@ -20,6 +20,7 @@ import Cart from "./pages/cart/Cart";
 import Checkout from "./components/Checkout";
 import Indentified from "./pages/identified/Indentified";
 import Search from "antd/lib/transfer/search";
+import Resetpassword from "./pages/signin/Resetpassword";
 // export default class App extends Component {
 //   static displayName = App.name;
 
@@ -57,7 +58,7 @@ function App() {
         ></Route>
         <Route path="signin" element={<Signin />} />
         <Route path="thongtinnguoidung" element={<Account />} />
-
+        <Route path="resetpassword" element={<Resetpassword />} />
         <Route path="dangki" element={<Signup />} />
         <Route path="search" element={<Search />} />
         <Route path="giohang" element={<Cart />} />

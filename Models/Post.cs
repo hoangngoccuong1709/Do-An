@@ -11,7 +11,7 @@ namespace Do_An.Models
         [Key]
         public int Idpost { get; set; }
 
-        // public string View { get; set; }
+        public string Advice { get; set; }
 
         public string Author { get; set; }
 

@@ -92,11 +92,12 @@ function Viewpost(item) {
                   className="column"
                   data-selector="header11"
                 >
-                  <img
+                  {/* <img
+                    style={{ width: 1000 }}
                     src={item.imageconten}
                     alt=""
                     className="img-responsive"
-                  />
+                  /> */}
                   {/* <img
                     style={{ marginTop: 50 }}
                     src={item.imageconten}
@@ -108,6 +109,12 @@ function Viewpost(item) {
             </div>
           </div>
         </section>
+        <article className="article">
+          <h3>Lời Khuyên</h3>
+          {/* <p className="tacgia">{item.author}</p>
+          <p className="conten">Tham khảo</p> */}
+          <p className="title">{item.describe}</p>
+        </article>
         <h2 className="title-post"> Các bài viết liên quan</h2>
         <section className="body1 container">
           {Object.values(treeReducer).map((item) => {

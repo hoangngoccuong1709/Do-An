@@ -41,7 +41,8 @@ namespace Do_An.Controller
                 Author = x.Author,
                 Writingdate = x.Writingdate,
                 Describe = x.Describe,
-                HtmlContent = x.HtmlContent
+                HtmlContent = x.HtmlContent,
+                Advice = x.Advice
             }).Where(x => x.Idpost == idpost)
             .ToListAsync();
             return Ok(cakes);
@@ -58,7 +59,8 @@ namespace Do_An.Controller
                 Author = x.Author,
                 Writingdate = x.Writingdate,
                 TreeIdtree = x.TreeIdtree,
-                HtmlContent = x.HtmlContent
+                HtmlContent = x.HtmlContent,
+                Advice = x.Advice
 
 
             }).Where(x => x.TreeIdtree == treeidtree)
@@ -95,7 +97,8 @@ namespace Do_An.Controller
                 Author = post.Author,
                 TreeIdtree = post.TreeIdtree,
                 Describe = post.Describe,
-                HtmlContent = post.HtmlContent
+                HtmlContent = post.HtmlContent,
+                Advice = post.Advice
 
 
             };
@@ -168,6 +171,7 @@ namespace Do_An.Controller
 
             public string Describe { get; set; }
             public string HtmlContent { get; set; }
+            public string Advice { get; set; }
         }
     }
 }

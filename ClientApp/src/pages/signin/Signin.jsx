@@ -145,6 +145,9 @@ const AccountLogin = (props) => {
 
           <div className="input-form">
             <p className="dangnhap-dangki">
+              Quên mật khẩu <a href="/resetpassword">Lấy lại mật khẩu</a>
+            </p>
+            <p className="dangnhap-dangki">
               Bạn Chưa Có Tài Khoản? <a href="/dangki">Đăng Ký</a>
             </p>
           </div>
